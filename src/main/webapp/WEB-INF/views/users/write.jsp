@@ -37,7 +37,7 @@
 <body>
 	<main>
 		<h2>사용자 등록</h2>
-		<form action="/Users/Write" method="get">
+		<form action="/Users/Write" method="post">
 			<table>
 				<tr>
 					<td>아이디</td>
@@ -57,7 +57,7 @@
 				</tr>
 				<tr>
 					<td>포인트</td>
-					<td><input type="number" name="upoint" value="1000" readonly></td>
+					<td><input type="text" value="1000" readonly></td>
 				</tr>
 				<tr>
 					<td>가입일</td>

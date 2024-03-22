@@ -30,14 +30,13 @@
 		font-weight: bold;
 		/*scss 문법을 이용한 표현(script로 설치 필요)*/
 		td{
-			border-color: #dbb1ff;
+			border-color: #ffb1b1;
 		}
 		
 	}
 	/* tr 안에 td를 사용하려면 추가 적인 설정이 필요 아니면 그냥 원래 css 처럼 아래와 같이 사용 */
 	/* tr:first-child > td {border-color: white}  */
-	
-	/*적용 안됨*/
+
 	tr:nth-child(2) td {
      text-align: right;
   }
@@ -71,8 +70,8 @@
 					<td>${userVo.email}</td>
 					<td>${userVo.upoint}</td>
 					<td>${userVo.indate}</td>
-					<td><a href="/Users/Delete?menu_id=${userVo.user_id}">삭제</a></td> <!-- href에 #은 페이지 새로고침 -->
-					<td><a href="/Users/UpdateForm?menu_id=${userVo.user_id}">수정</a></td>
+					<td><a href="/Users/Delete?userid=${userVo.userid}">삭제</a></td> <!-- href에 #은 페이지 새로고침 -->
+					<td><a href="/Users/UpdateForm?userid=${userVo.userid}">수정</a></td>
 				</tr>
 			</c:forEach>
 		</table>

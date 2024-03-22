@@ -14,7 +14,6 @@
 	</select>
 	
 	<insert id="insertUser">
-		INSERT INTO TUSER (USERID, PASSWD, USERNAME, EMAIL, UPOINT)
-		VALUES (#{userid}, #{passwd}, #{username}, #{email}, 1000)
+		INSERT INTO TUSER (USERID, PASSWD, USERNAME, EMAIL, UPOINT)	VALUES (#{userid}, #{passwd}, #{username}, #{email}, 1000)
 	</insert>
 </mapper>
