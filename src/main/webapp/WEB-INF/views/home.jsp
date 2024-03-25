@@ -10,7 +10,9 @@
 </head>
 <body>
 	<main>
+		<a href="/"><h1>Board</h1></a>
 		<h2>Home</h2>
+		<hr>
 		<a href="/Menus/WriteForm">새 메뉴 추가</a>
 		<br>
 		<a href="/Menus/WriteForm2">새 메뉴 추가 2</a>

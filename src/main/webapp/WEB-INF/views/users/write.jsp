@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="/css/common.css">
-<link rel="icon" type="image/png" href="./img/favicon.png">
+<link rel="icon" type="image/png" href="/img/favicon.png">
 <style>
 	td {
 		padding: 10px;
@@ -36,6 +36,7 @@
 </head>
 <body>
 	<main>
+		<a href="/"><h1>Board</h1></a>
 		<h2>사용자 등록</h2>
 		<form action="/Users/Write" method="post">
 			<table>
