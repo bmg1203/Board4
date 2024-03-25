@@ -16,6 +16,7 @@
 		<a href="/Menus/WriteForm2">새 메뉴 추가 2</a>
 		<br>
 		<a href="/Menus/List">메뉴 목록</a>
+		<div>&nbsp;</div>
 		<hr>
 		<div><a href="/Users/List">사용자 목록</a></div>
 		<div><a href="/Users/WriteForm">사용자 추가</a></div>

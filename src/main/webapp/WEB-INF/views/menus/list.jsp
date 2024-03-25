@@ -61,6 +61,8 @@
 					[<a href="/Menus/WriteForm">메뉴 등록</a>]
 					&nbsp;&nbsp;&nbsp;
 					[<a href="/Menus/WriteForm2">메뉴 등록2</a>]
+					&nbsp;&nbsp;&nbsp;
+					[<a href="/">home</a>]
 				</td>
 			</tr>
 			<!-- 추가 후 menuList를 부를 때 빈값이 넘어오는 오류로 insert도 모델을 사용하도록 수정 -->

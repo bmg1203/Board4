@@ -52,26 +52,27 @@
 				<td>아이디</td>
 				<td>이름</td>
 				<td>이메일</td>
-				<td>회원등급</td>
+				<td>포인트</td>
 				<td>가입일</td>
-				<td>삭제</td>
-				<td>수정</td>
+				<!-- <td>삭제</td>
+				<td>수정</td>-->
 			</tr>
 			<tr>
-				<td colspan="7">
+				<td colspan="5">
 					[<a href="/Users/WriteForm">사용자 추가</a>]
+					[<a href="/">home</a>]
 				</td>
 			</tr>
 			<!-- 추가 후 menuList를 부를 때 빈값이 넘어오는 오류로 insert도 모델을 사용하도록 수정 -->
 			<c:forEach var="userVo" items="${userList}"> <!-- menuList를 할 때 forEach는 무시지만 %는 오류이기 때문에 forEach 사용 -->
 				<tr>
 					<td>${userVo.userid}</td>
-					<td>${userVo.username}</td>
+					<td><a href="/Users/View?userid=${userVo.userid}">${userVo.username}</a></td>
 					<td>${userVo.email}</td>
 					<td>${userVo.upoint}</td>
 					<td>${userVo.indate}</td>
-					<td><a href="/Users/Delete?userid=${userVo.userid}">삭제</a></td> <!-- href에 #은 페이지 새로고침 -->
-					<td><a href="/Users/UpdateForm?userid=${userVo.userid}">수정</a></td>
+					<!-- <td><a href="/Users/Delete?userid=${userVo.userid}">삭제</a></td>
+					<td><a href="/Users/UpdateForm?userid=${userVo.userid}">수정</a></td>-->
 				</tr>
 			</c:forEach>
 		</table>
